@@ -1,5 +1,5 @@
 body {
-    background-image: url("../../assets/images/fresh_snow_@2X.png");
+    /* background-image: url("../../assets/images/fresh_snow_@2X.png"); */
     margin: 0px;
     padding: 0px;
 }
@@ -114,12 +114,6 @@ body {
 
 @media screen and (max-width: 980px) {
 
-    /* body {
-        background-color: lavender;
-        margin: 0px;
-        padding: 0px;
-    } */
-
     header {
 
         background: #ffffff;
@@ -131,7 +125,6 @@ body {
 
     #nameNavDiv {
 
-        /* width: 960px; */
         position: absolute;
         top: 0px;
         left: 30px;
@@ -224,16 +217,108 @@ body {
 
 @media screen and (max-width: 768px) {
     
-    body {
-        background-color: blue;
+    header {
+
+        background: #ffffff;
+        border-bottom: solid;
+        border-bottom-color: #cccccc;
+        height: 80px;
+        width: 100%;
+    }
+
+    #nameNavDiv {
+
+        position: absolute;
+        top: 0px;
+        left: 30px;
+        right: 0px;
+        margin: auto;
+    }
+
+    #name {
+        background-color: #4aaaa5;
+        margin: 0px;
+        padding: 29px;
+        width: 154px;
+        color: #ffffff;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        font-size: 120%;
+        float: left;
+    }
+
+    ul {
+        list-style-type: none;
+        position: absolute;
+        right: 0px;
+        margin: 0;
+        padding: 0;
+        float: left;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: #777777;
+        text-align: center;
+        padding: 31px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: #4aaaa5;
+        color: #ffffff;
+    }
+
+    section {
+
+        background: #ffffff;
+        border: solid;
+        border-width: 1px;
+        border-color: #dddddd;
+        width: 475px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        overflow: auto;
+    }
+
+    #contactBox {
+
+        width: 95%;
+        margin-top: 25px;
+        margin-left: 25px; 
+    }
+    
+    input {
+        
+        width: 95%;
+        height: 25px;
+        margin-bottom: 15px;
+    }
+    
+    textarea {
+    
+        width: 95%;
+        height: 150px;
+    }
+    
+    #submit {
+    
+        background: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        width: 75px;
+        padding: 10px;
+        margin-top: 15px;
+        margin-left: 25px;
+        margin-bottom: 15px;
     }
 }
 
 @media screen and (max-width: 650px) {
-    
-    /* body {
-        background-color: red;
-    } */
 
     header {
 
@@ -283,6 +368,19 @@ body {
     li a:hover {
         background-color: #4aaaa5;
         color: #ffffff;
+    }
+
+    section {
+
+        background: #ffffff;
+        border: solid;
+        border-width: 1px;
+        border-color: #dddddd;
+        width: 450px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        overflow: auto;
     }
 
     #contactBox {
